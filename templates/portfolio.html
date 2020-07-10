@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="jumbotron text-center">
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Fhuad Balogun</h2>
+      <h6><span class="text-muted">Machine Learning and Business Analytics</span></h6>
+      <p class="lead">I enjoy playing with business data and try to provide insights from my result. You can check them out from the links to my GitHub below.</p>
+    </div>
+    <hr class="featurette-divider">
+    <div class="col-md-5">
+      <img src="{{url_for('static', filename='fhuad_profile.png')}}" width="400" height="400">
+      <style>
+        img {
+          border-radius: 50%;
+        }
+      </style>
+    </div>
+  </div>
+</div>
+
+<h1>My Projects</h1>
+<ul class="list-group">
+    <li class="list-group-item"><a href="https://github.com/fhuadeen/TOW-Airbnb-DM">TOW-Airbnb-DM</a></li>
+    <li class="list-group-item"><a href="https://github.com/fhuadeen/TOW-Apache-Spam-Assassin-Data">TOW-Apache-Spam-Assassin-Data</a></li>
+    <li class="list-group-item"><a href="https://github.com/fhuadeen/TOW-Sprocket-Central-Data">TOW-Sprocket-Central-Data</a></li>
+    <li class="list-group-item"><a href="https://github.com/fhuadeen/fhuadeen.github.io">My Portfolio Website repository on Github</a></li>
+</ul>
+
+{% endblock %}
