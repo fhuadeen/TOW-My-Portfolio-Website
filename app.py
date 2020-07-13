@@ -21,9 +21,9 @@ app.debug = True # so we don't have to be reloading server every time we make a 
 def index():
     return render_template('home.html') # route to home page
 
-@app.route('/portfolio')
-def portfolio():
-    return render_template('portfolio.html') # route to portfolio page
+@app.route('/projects')
+def projects():
+    return render_template('projects.html') # route to portfolio page
 
 @app.route('/articles')
 def articles():
