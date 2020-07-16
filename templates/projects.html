@@ -5,7 +5,7 @@
   <div class="row featurette">
     <div class="col-md-7">
       <h2 class="featurette-heading">Fhuad Balogun</h2>
-      <h6><span class="text-muted"><a href="https://en.wikipedia.org/wiki/Machine_learning">Machine Learning</a> and <a href="https://en.wikipedia.org/wiki/Business_analytics">Business Analytics</a></span></h6>
+      <h6><span class="text-muted"><a href="https://en.wikipedia.org/wiki/Machine_learning">Machine Learning</a> and <a href="https://en.wikipedia.org/wiki/Data_analysis">Data Analysis</a></span></h6>
       <p class="lead">I enjoy playing with business data to build machine learning models and also try to provide insights from my results. You can checkout some of my past projects from the links to my GitHub below.</p>
     </div>
     <hr class="featurette-divider">
@@ -20,12 +20,40 @@
   </div>
 </div>
 
-<h1>My Projects</h1>
-<ul class="list-group">
-    <li class="list-group-item"><a href="https://github.com/fhuadeen/TOW-Airbnb-DM">TOW-Airbnb-DM</a></li>
-    <li class="list-group-item"><a href="https://github.com/fhuadeen/TOW-Apache-Spam-Assassin-Data">TOW-Apache-Spam-Assassin-Data</a></li>
-    <li class="list-group-item"><a href="https://github.com/fhuadeen/TOW-Sprocket-Central-Data">TOW-Sprocket-Central-Data</a></li>
-    <li class="list-group-item"><a href="https://github.com/fhuadeen/fhuadeen.github.io">My Portfolio Website repository on Github</a></li>
-</ul>
+<h1>Some Past Projects:</h1>
+    <ul class="list-group">
+          <div class="grid">
+            <li class="list-group-item">
+                   <img src="{{url_for('static', filename='fhuad_profile.png')}}" width="30" height="30" alt="" />
+                   <a href="https://github.com/fhuadeen/TOW-Airbnb-DM">Predictive Model on Airbnb Data</a>
+            </li>
+          </div>
 
-{% endblock %}
+        <div class="grid">
+            <li class="list-group-item">
+                   <img src="{{url_for('static', filename='fhuad_profile.png')}}" width="30" height="30" alt="" />
+                   <a href="https://github.com/fhuadeen/TOW-Sprocket-Central-Data">Analysing and Building Regression Model for Sprocket Central Ltd</a>
+            </li>
+          </div>
+
+          <div class="grid">
+            <li class="list-group-item">
+                   <img src="{{url_for('static', filename='fhuad_profile.png')}}" width="30" height="30" alt="" />
+                   <a href="https://github.com/fhuadeen/TOW-Apache-Spam-Assassin-Data">Building a Spam Email Classifier</a>
+            </li>
+          </div>
+
+          <div class="grid">
+            <li class="list-group-item">
+                   <img src="{{url_for('static', filename='fhuad_profile.png')}}" width="30" height="30" alt="" />
+                   <a href="https://github.com/fhuadeen/TOW-My-Portfolio-Website">My Portfolio Website repository on Github</a>
+            </li>
+          </div>
+          <div class="grid">
+            <li class="list-group-item">
+
+            </li>
+          </div>
+      </ul>
+
+  {% endblock %}
