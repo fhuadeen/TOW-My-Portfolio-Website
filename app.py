@@ -31,7 +31,7 @@ def articles():
 
 @app.route('/resume')
 def resume():
-    return redirect('https://docs.google.com/document/d/1TIAc04c7enmQ39nAv9KypNIMfSfzNhEh7uiyiSjQyUI/edit?usp=sharing') # route to articles page
+    return redirect('https://app.luminpdf.com/viewer/5f5c93c4d918360011cdafca') # route to articles page
 
 # run the application
 if __name__ == '__main__':
