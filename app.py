@@ -29,9 +29,9 @@ def projects():
 def articles():
     return redirect('https://medium.com/@fhuadeen') # route to articles page
 
-@app.route('/resume')
+@app.route('/linkedin')
 def resume():
-    return redirect('https://app.luminpdf.com/viewer/5f6053fa21b5e200186eb237') # route to articles page
+    return redirect('https://www.linkedin.com/in/fhuadeen/') # route to articles page
 
 # run the application
 if __name__ == '__main__':
