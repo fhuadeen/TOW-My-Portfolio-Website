@@ -27,11 +27,15 @@ def projects():
 
 @app.route('/articles')
 def articles():
-    return redirect('https://medium.com/@fhuadeen') # route to articles page
+    return redirect('https://medium.com/@fhuadeen') # route to Medium page
 
 @app.route('/linkedin')
-def resume():
-    return redirect('https://www.linkedin.com/in/fhuadeen/') # route to articles page
+def linkedin():
+    return redirect('https://www.linkedin.com/in/fhuadeen/') # route to LinkedIn
+
+@app.route('/github')
+def github():
+    return redirect('https://github.com/fhuadeen/') # route to LinkedIn
 
 # run the application
 if __name__ == '__main__':
