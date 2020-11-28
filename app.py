@@ -25,8 +25,8 @@ def index():
 def projects():
     return render_template('projects.html') # route to portfolio page
 
-@app.route('/articles')
-def articles():
+@app.route('/blogs')
+def blogs():
     return redirect('https://medium.com/@fhuadeen') # route to Medium page
 
 @app.route('/linkedin')
